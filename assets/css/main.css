@@ -3038,9 +3038,15 @@ input, select, textarea {
 
 	.nav-socials{
 		position: absolute;
-		bottom: 25px;
-		left: 60px;
+		bottom: 70px;
+		left: 45px;
 		margin: auto;
+	}
+	.nav-logo{
+		width: 100px;
+    position: absolute;
+    bottom: 15px;
+    right: 30%;
 	}
 
 	/* Navigation Panel Styles */

@@ -65,5 +65,9 @@
 				// Clone the existing .icons element and append it to the navPanel.
 				const iconsClone = $('.icons').clone().addClass('nav-socials');
 				$('#navPanel nav').after(iconsClone);
+				$('<div style="text-align: center; margin-top: 20px;">' +
+					'<img class="nav-logo" src="images/logo.png" style="width: 100px;" alt="Labor logo" />' +
+				  '</div>'
+				).appendTo('#navPanel');
 
 })(jQuery);
